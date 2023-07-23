@@ -77,7 +77,6 @@ nav {
 /* banner section style started  */
 
 .banner-main-containe {
-    visibility: hidden;
     justify-content: space-around;
     background-color: #FFF;
     display: flex;
@@ -151,7 +150,6 @@ nav {
 /* main style section-1 */
 
 .section-1 {
-    visibility: hidden;
     padding-top: 95px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     margin-bottom: 120px;
@@ -239,12 +237,9 @@ nav {
 }
 
 /* main section 3 started */
-.sec-3 {
-    visibility: hidden;
-}
+
 
 .online-container {
-    visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,7 +315,6 @@ nav {
 }
 
 .play-container-main {
-    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -362,7 +356,6 @@ nav {
 /* section 5 started */
 .play-container-section5-main {
     display: flex;
-    visibility: hidden;
     justify-content: center;
 
 }
@@ -390,7 +383,6 @@ nav {
 /* section 6-carrears started */
 
 .section-6 {
-    visibility: hidden;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     height: 815px;
 }
@@ -484,7 +476,6 @@ nav {
 
 /* section 7 started */
 .last-container {
-    visibility: hidden;
     display: flex;
     padding: 100px 100px 0px 100px;
     gap: 30px;
@@ -511,7 +502,6 @@ nav {
 /* footer section started */
 
 footer {
-    visibility: hidden;
     background: #0B0223;
 }
 
@@ -571,7 +561,167 @@ footer {
 /* website responsive  */
 
 @media screen and (max-width: 576px) {
-    .head-container {
+
+    .head-container,
+    .play-container-main,
+    .section-6-main,
+    .banner-main-containe,
+    .main-container,
+    .online-container,
+    .section-6-main-container,
+    ul {
         flex-direction: column;
+    }
+
+    .responsive-clas {
+        width: 400px;
+    }
+
+    .we-are-gamer {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .online-container {
+        gap: 30px;
+    }
+
+    .online-div {
+        padding-left: 50px;
+    }
+
+
+    .relative-container {
+        width: 200px;
+        position: relative;
+        bottom: 100px;
+        left: 320px;
+        width: 150px;
+    }
+
+    .responsive-img-24 {
+        width: 300px;
+    }
+
+    .section-4 {
+        width: 290px;
+    }
+
+    .online-header {
+        width: 330px;
+        font-size: 30px;
+    }
+
+    .online-div {
+        width: auto;
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .online-container {
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    .img-pay {
+        width: 400px;
+    }
+
+    .play-container-1 {
+        width: auto;
+        position: relative;
+        left: 300px;
+        top: 50px;
+        height: 310px;
+    }
+
+
+    .play-container-section5-main {
+        flex-direction: column-reverse;
+        position: relative;
+        top: 200px;
+    }
+
+    .play-title {
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    .play-container-section5 {
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    .sec-5-img {
+        width: 400px;
+    }
+
+    .relative-container-section5 {
+        position: relative;
+        left: 100px;
+    }
+
+    .relative-container-section5 {
+        width: 200px;
+        position: relative;
+        left: 300px;
+        bottom: 100px;
+    }
+
+    .play-container-section-5 {
+        margin-top: 100px;
+    }
+
+    .img-width {
+        width: 556px;
+        height: 500px;
+    }
+
+    .img-container {
+        margin-top: 350px;
+        width: max-content;
+    }
+
+    #btn-primary {
+        position: relative;
+        right: 150px;
+    }
+
+    .btn-div {
+        position: relative;
+        top: 43px;
+    }
+
+    .head-container-12 {
+        margin-top: 150px;
+    }
+
+    .section-6-main-container {}
+
+
+    .Careers-description {
+        width: 380px;
+    }
+
+    .section-6 {
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+        height: 1770px;
+    }
+
+    .Careers-container-2 {
+        text-align: left;
+    }
+
+    .last-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+        justify-content: space-between;
+        align-items: baseline;
+        justify-items: start;
+        padding: 10px;
+        width: 500px;
     }
 }
