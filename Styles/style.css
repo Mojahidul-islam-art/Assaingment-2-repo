@@ -563,6 +563,7 @@ footer {
 @media screen and (max-width: 576px) {
 
     .head-container,
+    .last-container,
     .play-container-main,
     .section-6-main,
     .banner-main-containe,
@@ -714,14 +715,12 @@ footer {
         text-align: left;
     }
 
-    .last-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-content: center;
-        justify-content: space-between;
-        align-items: baseline;
-        justify-items: start;
-        padding: 10px;
-        width: 500px;
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .last-2nd {
+        padding-left: 0px;
     }
 }
